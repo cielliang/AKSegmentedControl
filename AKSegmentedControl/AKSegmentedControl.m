@@ -252,7 +252,7 @@
     if ([_buttonsArray count] == 0)
         return;
     
-    [_buttonsArray makeObjectsPerformSelector:@selector(setSelected:) withObject:nil];
+//    [_buttonsArray makeObjectsPerformSelector:@selector(setSelected:) withObject:nil];
     
     [_selectedIndexes enumerateIndexesUsingBlock:^(NSUInteger idx, BOOL *stop) {
         if (_segmentedControlMode != AKSegmentedControlModeButton)
